@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8301EF7F1D63237B57E82325 /* Pods_VirtualPaymentService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDE3A745D644738B3EFC8A4 /* Pods_VirtualPaymentService.framework */; };
+		B183C7CF2BE2A92C0027A126 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B183C7CE2BE2A92C0027A126 /* LoadingIndicator.swift */; };
 		B1F8AAEE2BE249460022741A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F8AAED2BE249460022741A /* AppDelegate.swift */; };
 		B1F8AAF02BE249460022741A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F8AAEF2BE249460022741A /* SceneDelegate.swift */; };
 		B1F8AAF22BE249460022741A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F8AAF12BE249460022741A /* ViewController.swift */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70E6818D5867110FAC97691A /* Pods-VirtualPaymentService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualPaymentService.debug.xcconfig"; path = "Target Support Files/Pods-VirtualPaymentService/Pods-VirtualPaymentService.debug.xcconfig"; sourceTree = "<group>"; };
+		7851FCF172775F1B04B7E7E8 /* Pods-VirtualPaymentService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualPaymentService.release.xcconfig"; path = "Target Support Files/Pods-VirtualPaymentService/Pods-VirtualPaymentService.release.xcconfig"; sourceTree = "<group>"; };
+		8BDE3A745D644738B3EFC8A4 /* Pods_VirtualPaymentService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualPaymentService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B183C7CE2BE2A92C0027A126 /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
 		B1F8AAEA2BE249460022741A /* VirtualPaymentService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualPaymentService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F8AAED2BE249460022741A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1F8AAEF2BE249460022741A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8301EF7F1D63237B57E82325 /* Pods_VirtualPaymentService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E64D8198F282B475E987B07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70E6818D5867110FAC97691A /* Pods-VirtualPaymentService.debug.xcconfig */,
+				7851FCF172775F1B04B7E7E8 /* Pods-VirtualPaymentService.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B1F8AAE12BE249460022741A = {
 			isa = PBXGroup;
 			children = (
 				B1F8AAEC2BE249460022741A /* VirtualPaymentService */,
 				B1F8AAEB2BE249460022741A /* Products */,
+				6E64D8198F282B475E987B07 /* Pods */,
+				E98FDE12AA5255B7F6B3A323 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +77,21 @@
 				B1F8AAED2BE249460022741A /* AppDelegate.swift */,
 				B1F8AAEF2BE249460022741A /* SceneDelegate.swift */,
 				B1F8AAF12BE249460022741A /* ViewController.swift */,
+				B183C7CE2BE2A92C0027A126 /* LoadingIndicator.swift */,
 				B1F8AAF32BE249460022741A /* Main.storyboard */,
 				B1F8AAF62BE249480022741A /* Assets.xcassets */,
 				B1F8AAF82BE249480022741A /* LaunchScreen.storyboard */,
 				B1F8AAFB2BE249480022741A /* Info.plist */,
 			);
 			path = VirtualPaymentService;
+			sourceTree = "<group>";
+		};
+		E98FDE12AA5255B7F6B3A323 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BDE3A745D644738B3EFC8A4 /* Pods_VirtualPaymentService.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1F8AAFE2BE249480022741A /* Build configuration list for PBXNativeTarget "VirtualPaymentService" */;
 			buildPhases = (
+				FE1B412DF80FE5A3AFFDFAA9 /* [CP] Check Pods Manifest.lock */,
 				B1F8AAE62BE249460022741A /* Sources */,
 				B1F8AAE72BE249460022741A /* Frameworks */,
 				B1F8AAE82BE249460022741A /* Resources */,
+				6002D395660F69003D464B78 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,11 +162,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6002D395660F69003D464B78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirtualPaymentService/Pods-VirtualPaymentService-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirtualPaymentService/Pods-VirtualPaymentService-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirtualPaymentService/Pods-VirtualPaymentService-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE1B412DF80FE5A3AFFDFAA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirtualPaymentService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B1F8AAE62BE249460022741A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B183C7CF2BE2A92C0027A126 /* LoadingIndicator.swift in Sources */,
 				B1F8AAF22BE249460022741A /* ViewController.swift in Sources */,
 				B1F8AAEE2BE249460022741A /* AppDelegate.swift in Sources */,
 				B1F8AAF02BE249460022741A /* SceneDelegate.swift in Sources */,
@@ -282,6 +354,7 @@
 		};
 		B1F8AAFF2BE249480022741A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70E6818D5867110FAC97691A /* Pods-VirtualPaymentService.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +383,7 @@
 		};
 		B1F8AB002BE249480022741A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7851FCF172775F1B04B7E7E8 /* Pods-VirtualPaymentService.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
