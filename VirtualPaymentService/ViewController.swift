@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         
         LoadingIndicator.shared.show(indicator: self.view)
         
-        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 100) {
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2) {
             LoadingIndicator.shared.hide()
             
         }

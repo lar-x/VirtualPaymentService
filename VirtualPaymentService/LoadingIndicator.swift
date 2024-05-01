@@ -32,9 +32,9 @@ class LoadingIndicator: UIView {
         indicator.heightAnchor.constraint(equalToConstant: 30).isActive = true
 
 //        indicator.centerYAnchor.constraint(equalToSystemSpacingBelow: forView.centerYAnchor, multiplier: 0).isActive = true
-//        indicator.bottomAnchor.constraint(equalTo: forView.bottomAnchor, constant: 100).isActive = true
-//        indicator.leftAnchor.constraint(equalTo: imageView.leftAnchor, constant: 30).isActive = true
-//        indicator.rightAnchor.constraint(equalTo: forView.rightAnchor, constant: 3000).isActive = true
+//        indicator.bottomAnchor.constraint(equalTo: forView.bottomAnchor, constant: 0).isActive = true
+//        indicator.leftAnchor.constraint(equalTo: forView.leftAnchor, constant: 0).isActive = true
+//        indicator.rightAnchor.constraint(equalTo: forView.rightAnchor, constant: 0).isActive = true
          
         indicator.bringSubviewToFront(forView)
     }
