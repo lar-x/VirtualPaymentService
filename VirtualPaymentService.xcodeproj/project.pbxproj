@@ -8,7 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		8301EF7F1D63237B57E82325 /* Pods_VirtualPaymentService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDE3A745D644738B3EFC8A4 /* Pods_VirtualPaymentService.framework */; };
+		B106B98F2BE4FFCB002E606F /* EnumColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B106B98E2BE4FFCB002E606F /* EnumColorScheme.swift */; };
+		B106B9942BE501FD002E606F /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B106B9932BE501FD002E606F /* TopView.swift */; };
+		B106B9962BE50BFA002E606F /* TopLables.swift in Sources */ = {isa = PBXBuildFile; fileRef = B106B9952BE50BFA002E606F /* TopLables.swift */; };
+		B106B9992BE51CC7002E606F /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B106B9982BE51CC7002E606F /* CollectionCell.swift */; };
 		B183C7CF2BE2A92C0027A126 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B183C7CE2BE2A92C0027A126 /* LoadingIndicator.swift */; };
+		B183C7D12BE2D3070027A126 /* FrameFourVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B183C7D02BE2D3070027A126 /* FrameFourVC.swift */; };
 		B1F8AAEE2BE249460022741A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F8AAED2BE249460022741A /* AppDelegate.swift */; };
 		B1F8AAF02BE249460022741A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F8AAEF2BE249460022741A /* SceneDelegate.swift */; };
 		B1F8AAF22BE249460022741A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F8AAF12BE249460022741A /* ViewController.swift */; };
@@ -21,7 +26,12 @@
 		70E6818D5867110FAC97691A /* Pods-VirtualPaymentService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualPaymentService.debug.xcconfig"; path = "Target Support Files/Pods-VirtualPaymentService/Pods-VirtualPaymentService.debug.xcconfig"; sourceTree = "<group>"; };
 		7851FCF172775F1B04B7E7E8 /* Pods-VirtualPaymentService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualPaymentService.release.xcconfig"; path = "Target Support Files/Pods-VirtualPaymentService/Pods-VirtualPaymentService.release.xcconfig"; sourceTree = "<group>"; };
 		8BDE3A745D644738B3EFC8A4 /* Pods_VirtualPaymentService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualPaymentService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B106B98E2BE4FFCB002E606F /* EnumColorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumColorScheme.swift; sourceTree = "<group>"; };
+		B106B9932BE501FD002E606F /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		B106B9952BE50BFA002E606F /* TopLables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopLables.swift; sourceTree = "<group>"; };
+		B106B9982BE51CC7002E606F /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
 		B183C7CE2BE2A92C0027A126 /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
+		B183C7D02BE2D3070027A126 /* FrameFourVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameFourVC.swift; sourceTree = "<group>"; };
 		B1F8AAEA2BE249460022741A /* VirtualPaymentService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualPaymentService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F8AAED2BE249460022741A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1F8AAEF2BE249460022741A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +63,40 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		B106B9902BE50040002E606F /* Preloader */ = {
+			isa = PBXGroup;
+			children = (
+				B1F8AAF12BE249460022741A /* ViewController.swift */,
+				B183C7CE2BE2A92C0027A126 /* LoadingIndicator.swift */,
+			);
+			path = Preloader;
+			sourceTree = "<group>";
+		};
+		B106B9912BE5005E002E606F /* FrameFour */ = {
+			isa = PBXGroup;
+			children = (
+				B183C7D02BE2D3070027A126 /* FrameFourVC.swift */,
+			);
+			path = FrameFour;
+			sourceTree = "<group>";
+		};
+		B106B9922BE501C7002E606F /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				B106B9932BE501FD002E606F /* TopView.swift */,
+				B106B9952BE50BFA002E606F /* TopLables.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		B106B9972BE51C91002E606F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B106B9982BE51CC7002E606F /* CollectionCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		B1F8AAE12BE249460022741A = {
 			isa = PBXGroup;
 			children = (
@@ -74,12 +118,15 @@
 		B1F8AAEC2BE249460022741A /* VirtualPaymentService */ = {
 			isa = PBXGroup;
 			children = (
+				B106B9972BE51C91002E606F /* Cell */,
+				B106B9922BE501C7002E606F /* CustomView */,
+				B106B9912BE5005E002E606F /* FrameFour */,
+				B106B9902BE50040002E606F /* Preloader */,
 				B1F8AAED2BE249460022741A /* AppDelegate.swift */,
 				B1F8AAEF2BE249460022741A /* SceneDelegate.swift */,
-				B1F8AAF12BE249460022741A /* ViewController.swift */,
-				B183C7CE2BE2A92C0027A126 /* LoadingIndicator.swift */,
 				B1F8AAF32BE249460022741A /* Main.storyboard */,
 				B1F8AAF62BE249480022741A /* Assets.xcassets */,
+				B106B98E2BE4FFCB002E606F /* EnumColorScheme.swift */,
 				B1F8AAF82BE249480022741A /* LaunchScreen.storyboard */,
 				B1F8AAFB2BE249480022741A /* Info.plist */,
 			);
@@ -209,8 +256,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B106B9962BE50BFA002E606F /* TopLables.swift in Sources */,
+				B106B9942BE501FD002E606F /* TopView.swift in Sources */,
+				B106B9992BE51CC7002E606F /* CollectionCell.swift in Sources */,
+				B183C7D12BE2D3070027A126 /* FrameFourVC.swift in Sources */,
 				B183C7CF2BE2A92C0027A126 /* LoadingIndicator.swift in Sources */,
 				B1F8AAF22BE249460022741A /* ViewController.swift in Sources */,
+				B106B98F2BE4FFCB002E606F /* EnumColorScheme.swift in Sources */,
 				B1F8AAEE2BE249460022741A /* AppDelegate.swift in Sources */,
 				B1F8AAF02BE249460022741A /* SceneDelegate.swift in Sources */,
 			);
@@ -366,8 +418,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -395,8 +446,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

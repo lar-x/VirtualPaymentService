@@ -11,6 +11,7 @@ import NVActivityIndicatorView
 class LoadingIndicator: UIView {
     
     public static let shared = LoadingIndicator()
+    
     private var indicator: NVActivityIndicatorView = {
         
         let indicator = NVActivityIndicatorView(frame: CGRect.init(x: 0, y: 0, width: 30, height: 30), type: .ballPulse, color: .black)

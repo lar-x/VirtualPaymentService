@@ -23,6 +23,21 @@
             </objects>
             <point key="canvasLocation" x="118" y="-2"/>
         </scene>
+        <!--Frame FourVC-->
+        <scene sceneID="0gT-JX-rt1">
+            <objects>
+                <viewController id="l7Z-Mv-Jhq" customClass="FrameFourVC" customModule="VirtualPaymentService" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8CU-4R-3Fx">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Qkm-ao-sH4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="enr-TO-y7P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="775" y="-2"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
