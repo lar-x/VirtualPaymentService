@@ -14,6 +14,8 @@
 		B106B9992BE51CC7002E606F /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B106B9982BE51CC7002E606F /* CollectionCell.swift */; };
 		B183C7CF2BE2A92C0027A126 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B183C7CE2BE2A92C0027A126 /* LoadingIndicator.swift */; };
 		B183C7D12BE2D3070027A126 /* FrameFourVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B183C7D02BE2D3070027A126 /* FrameFourVC.swift */; };
+		B1DECEDE2BE61B5900A81C03 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DECEDD2BE61B5900A81C03 /* CardView.swift */; };
+		B1EB24B22BE67F0200DCF22A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EB24B12BE67F0200DCF22A /* GradientView.swift */; };
 		B1F8AAEE2BE249460022741A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F8AAED2BE249460022741A /* AppDelegate.swift */; };
 		B1F8AAF02BE249460022741A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F8AAEF2BE249460022741A /* SceneDelegate.swift */; };
 		B1F8AAF22BE249460022741A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F8AAF12BE249460022741A /* ViewController.swift */; };
@@ -32,6 +34,8 @@
 		B106B9982BE51CC7002E606F /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
 		B183C7CE2BE2A92C0027A126 /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
 		B183C7D02BE2D3070027A126 /* FrameFourVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameFourVC.swift; sourceTree = "<group>"; };
+		B1DECEDD2BE61B5900A81C03 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B1EB24B12BE67F0200DCF22A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		B1F8AAEA2BE249460022741A /* VirtualPaymentService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualPaymentService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F8AAED2BE249460022741A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1F8AAEF2BE249460022741A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +89,8 @@
 			children = (
 				B106B9932BE501FD002E606F /* TopView.swift */,
 				B106B9952BE50BFA002E606F /* TopLables.swift */,
+				B1DECEDD2BE61B5900A81C03 /* CardView.swift */,
+				B1EB24B12BE67F0200DCF22A /* GradientView.swift */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -258,8 +264,10 @@
 			files = (
 				B106B9962BE50BFA002E606F /* TopLables.swift in Sources */,
 				B106B9942BE501FD002E606F /* TopView.swift in Sources */,
+				B1EB24B22BE67F0200DCF22A /* GradientView.swift in Sources */,
 				B106B9992BE51CC7002E606F /* CollectionCell.swift in Sources */,
 				B183C7D12BE2D3070027A126 /* FrameFourVC.swift in Sources */,
+				B1DECEDE2BE61B5900A81C03 /* CardView.swift in Sources */,
 				B183C7CF2BE2A92C0027A126 /* LoadingIndicator.swift in Sources */,
 				B1F8AAF22BE249460022741A /* ViewController.swift in Sources */,
 				B106B98F2BE4FFCB002E606F /* EnumColorScheme.swift in Sources */,

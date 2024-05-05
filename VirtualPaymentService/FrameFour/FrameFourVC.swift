@@ -11,7 +11,7 @@ class FrameFourVC: UIViewController {
     
     let topView = TopView(frame: .zero, type: .back)
     let topLables = TopLables()
-    var myCollection: UICollectionView!
+    var myCollection: UICollectionView! 
     
 
     override func viewDidLoad() {
@@ -39,16 +39,15 @@ class FrameFourVC: UIViewController {
     }
     
     func createFrames() {
+        
         topView.frame = CGRect(x: 0, y: 50, width: self.view.frame.width * 0.84, height: self.view.frame.height * 0.033)
         topView.center.x = self.view.center.x
         
         topLables.frame = CGRect(x: topView.frame.origin.x, y: 0, width: topView.frame.width, height: self.view.frame.height * 0.07)
-       // topLables.center.x = self.view.center.x
         topLables.center.y = topView.center.y + (topView.frame.height / 2) + (topLables.frame.height / 2) + 50
         
         myCollection.frame = CGRect(x: topView.frame.origin.x, y: 0, width: topView.frame.width, height: self.view.frame.height * 0.23)
         myCollection.center.y = topLables.center.y + (topLables.frame.height / 2) + (myCollection.frame.height / 2) + 50
-
     }
 
 }
@@ -61,6 +60,7 @@ extension FrameFourVC: UICollectionViewDataSource, UICollectionViewDelegate, UIC
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CollectionCell", for: indexPath) as! CollectionCell
+       
         return cell
     }
     
