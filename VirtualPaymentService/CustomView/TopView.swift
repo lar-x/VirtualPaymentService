@@ -17,24 +17,23 @@ class TopView: UIView {
             return UIImage(named: self.rawValue) ?? UIImage()
         }
     }
-
+    
     let leftButton = UIButton()
     let rightButton = UIButton()
     
-    var typeButton: TypeButton = .menu
+    let typeButton: TypeButton = .menu
     
     init(frame: CGRect, type: TypeButton) {
         
-        self.typeButton = type
+        //self.typeButton = type //What is it? Why no error where var typeButton: TypeButton = .menu
         super.init(frame: frame)
-        
         makeButtons()
         
-        self.backgroundColor = .systemCyan
+        //self.backgroundColor = .systemCyan
     }
     
     override func layoutSubviews() {
-        leftButton.frame = CGRect(x: 0, y: 0, width: self.frame.height, height: self.frame.height)
+        leftButton.frame = CGRect(x: 0, y: 0, width: self.frame.height * 1.4, height: self.frame.height)
         rightButton.frame = CGRect(x: self.frame.width - self.frame.height, y: 0, width: self.frame.height, height: self.frame.height)
     }
     
@@ -46,11 +45,7 @@ class TopView: UIView {
         
         addSubview(leftButton)
         addSubview(rightButton)
-        
-        
         leftButton.setBackgroundImage(typeButton.image, for: .normal)
-       
-        
         rightButton.setBackgroundImage(UIImage(named: "userButton"), for: .normal)
     }
     

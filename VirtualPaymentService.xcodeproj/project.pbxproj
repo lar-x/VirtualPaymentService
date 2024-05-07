@@ -12,8 +12,12 @@
 		B106B9942BE501FD002E606F /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B106B9932BE501FD002E606F /* TopView.swift */; };
 		B106B9962BE50BFA002E606F /* TopLables.swift in Sources */ = {isa = PBXBuildFile; fileRef = B106B9952BE50BFA002E606F /* TopLables.swift */; };
 		B106B9992BE51CC7002E606F /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B106B9982BE51CC7002E606F /* CollectionCell.swift */; };
+		B11B58402BE7A2FB00EC7272 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B11B583E2BE7A2FB00EC7272 /* Poppins-Bold.ttf */; };
+		B11B58412BE7A2FB00EC7272 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B11B583F2BE7A2FB00EC7272 /* Poppins-Regular.ttf */; };
+		B11B58442BE7F37C00EC7272 /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11B58432BE7F37C00EC7272 /* SwitchView.swift */; };
 		B183C7CF2BE2A92C0027A126 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B183C7CE2BE2A92C0027A126 /* LoadingIndicator.swift */; };
 		B183C7D12BE2D3070027A126 /* FrameFourVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B183C7D02BE2D3070027A126 /* FrameFourVC.swift */; };
+		B1DB1A832BE81CD20071FA5C /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DB1A822BE81CD20071FA5C /* CustomColors.swift */; };
 		B1DECEDE2BE61B5900A81C03 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DECEDD2BE61B5900A81C03 /* CardView.swift */; };
 		B1EB24B22BE67F0200DCF22A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EB24B12BE67F0200DCF22A /* GradientView.swift */; };
 		B1F8AAEE2BE249460022741A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F8AAED2BE249460022741A /* AppDelegate.swift */; };
@@ -32,8 +36,12 @@
 		B106B9932BE501FD002E606F /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
 		B106B9952BE50BFA002E606F /* TopLables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopLables.swift; sourceTree = "<group>"; };
 		B106B9982BE51CC7002E606F /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		B11B583E2BE7A2FB00EC7272 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		B11B583F2BE7A2FB00EC7272 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		B11B58432BE7F37C00EC7272 /* SwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
 		B183C7CE2BE2A92C0027A126 /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
 		B183C7D02BE2D3070027A126 /* FrameFourVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameFourVC.swift; sourceTree = "<group>"; };
+		B1DB1A822BE81CD20071FA5C /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
 		B1DECEDD2BE61B5900A81C03 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		B1EB24B12BE67F0200DCF22A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		B1F8AAEA2BE249460022741A /* VirtualPaymentService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualPaymentService.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +99,7 @@
 				B106B9952BE50BFA002E606F /* TopLables.swift */,
 				B1DECEDD2BE61B5900A81C03 /* CardView.swift */,
 				B1EB24B12BE67F0200DCF22A /* GradientView.swift */,
+				B11B58432BE7F37C00EC7272 /* SwitchView.swift */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -101,6 +110,16 @@
 				B106B9982BE51CC7002E606F /* CollectionCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		B11B58422BE7A30B00EC7272 /* CustomFontAndColor */ = {
+			isa = PBXGroup;
+			children = (
+				B11B583E2BE7A2FB00EC7272 /* Poppins-Bold.ttf */,
+				B11B583F2BE7A2FB00EC7272 /* Poppins-Regular.ttf */,
+				B1DB1A822BE81CD20071FA5C /* CustomColors.swift */,
+			);
+			path = CustomFontAndColor;
 			sourceTree = "<group>";
 		};
 		B1F8AAE12BE249460022741A = {
@@ -124,6 +143,7 @@
 		B1F8AAEC2BE249460022741A /* VirtualPaymentService */ = {
 			isa = PBXGroup;
 			children = (
+				B11B58422BE7A30B00EC7272 /* CustomFontAndColor */,
 				B106B9972BE51C91002E606F /* Cell */,
 				B106B9922BE501C7002E606F /* CustomView */,
 				B106B9912BE5005E002E606F /* FrameFour */,
@@ -210,6 +230,8 @@
 				B1F8AAFA2BE249480022741A /* LaunchScreen.storyboard in Resources */,
 				B1F8AAF72BE249480022741A /* Assets.xcassets in Resources */,
 				B1F8AAF52BE249460022741A /* Main.storyboard in Resources */,
+				B11B58402BE7A2FB00EC7272 /* Poppins-Bold.ttf in Resources */,
+				B11B58412BE7A2FB00EC7272 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B106B9962BE50BFA002E606F /* TopLables.swift in Sources */,
+				B1DB1A832BE81CD20071FA5C /* CustomColors.swift in Sources */,
 				B106B9942BE501FD002E606F /* TopView.swift in Sources */,
 				B1EB24B22BE67F0200DCF22A /* GradientView.swift in Sources */,
 				B106B9992BE51CC7002E606F /* CollectionCell.swift in Sources */,
@@ -270,6 +293,7 @@
 				B1DECEDE2BE61B5900A81C03 /* CardView.swift in Sources */,
 				B183C7CF2BE2A92C0027A126 /* LoadingIndicator.swift in Sources */,
 				B1F8AAF22BE249460022741A /* ViewController.swift in Sources */,
+				B11B58442BE7F37C00EC7272 /* SwitchView.swift in Sources */,
 				B106B98F2BE4FFCB002E606F /* EnumColorScheme.swift in Sources */,
 				B1F8AAEE2BE249460022741A /* AppDelegate.swift in Sources */,
 				B1F8AAF02BE249460022741A /* SceneDelegate.swift in Sources */,
@@ -426,6 +450,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +480,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
