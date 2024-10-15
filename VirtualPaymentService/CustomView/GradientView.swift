@@ -51,7 +51,9 @@ class GradientView: UIView {
         self.isInitCall = isInitCall
         self.cornerRadius = cornerRadius
         super.init(frame: frame)
-        if isInitCall { makeGradient() }
+        if isInitCall {
+            makeGradient()
+        }
     }
 
     required init?(coder: NSCoder) {

@@ -17,9 +17,14 @@
 		B11B58442BE7F37C00EC7272 /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11B58432BE7F37C00EC7272 /* SwitchView.swift */; };
 		B183C7CF2BE2A92C0027A126 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B183C7CE2BE2A92C0027A126 /* LoadingIndicator.swift */; };
 		B183C7D12BE2D3070027A126 /* FrameFourVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B183C7D02BE2D3070027A126 /* FrameFourVC.swift */; };
+		B191DD982C2D85840039157B /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191DD972C2D85840039157B /* ShopView.swift */; };
+		B1BCB2D52C31C1C6006D4D06 /* FrameFiveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BCB2D42C31C1C6006D4D06 /* FrameFiveVC.swift */; };
+		B1D098CC2C2DE61400FCE0BE /* ShopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D098CB2C2DE61400FCE0BE /* ShopData.swift */; };
 		B1DB1A832BE81CD20071FA5C /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DB1A822BE81CD20071FA5C /* CustomColors.swift */; };
 		B1DECEDE2BE61B5900A81C03 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DECEDD2BE61B5900A81C03 /* CardView.swift */; };
 		B1EB24B22BE67F0200DCF22A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EB24B12BE67F0200DCF22A /* GradientView.swift */; };
+		B1F1237F2BEA219E00DFC20C /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F1237E2BEA219E00DFC20C /* ListView.swift */; };
+		B1F123812BEA354400DFC20C /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F123802BEA354400DFC20C /* TableCell.swift */; };
 		B1F8AAEE2BE249460022741A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F8AAED2BE249460022741A /* AppDelegate.swift */; };
 		B1F8AAF02BE249460022741A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F8AAEF2BE249460022741A /* SceneDelegate.swift */; };
 		B1F8AAF22BE249460022741A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F8AAF12BE249460022741A /* ViewController.swift */; };
@@ -41,9 +46,14 @@
 		B11B58432BE7F37C00EC7272 /* SwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
 		B183C7CE2BE2A92C0027A126 /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
 		B183C7D02BE2D3070027A126 /* FrameFourVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameFourVC.swift; sourceTree = "<group>"; };
+		B191DD972C2D85840039157B /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		B1BCB2D42C31C1C6006D4D06 /* FrameFiveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameFiveVC.swift; sourceTree = "<group>"; };
+		B1D098CB2C2DE61400FCE0BE /* ShopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopData.swift; sourceTree = "<group>"; };
 		B1DB1A822BE81CD20071FA5C /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
 		B1DECEDD2BE61B5900A81C03 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		B1EB24B12BE67F0200DCF22A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		B1F1237E2BEA219E00DFC20C /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		B1F123802BEA354400DFC20C /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 		B1F8AAEA2BE249460022741A /* VirtualPaymentService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualPaymentService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F8AAED2BE249460022741A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1F8AAEF2BE249460022741A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +110,8 @@
 				B1DECEDD2BE61B5900A81C03 /* CardView.swift */,
 				B1EB24B12BE67F0200DCF22A /* GradientView.swift */,
 				B11B58432BE7F37C00EC7272 /* SwitchView.swift */,
+				B1F1237E2BEA219E00DFC20C /* ListView.swift */,
+				B191DD972C2D85840039157B /* ShopView.swift */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -108,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				B106B9982BE51CC7002E606F /* CollectionCell.swift */,
+				B1F123802BEA354400DFC20C /* TableCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -120,6 +133,22 @@
 				B1DB1A822BE81CD20071FA5C /* CustomColors.swift */,
 			);
 			path = CustomFontAndColor;
+			sourceTree = "<group>";
+		};
+		B1BCB2D32C31C019006D4D06 /* FrameFive */ = {
+			isa = PBXGroup;
+			children = (
+				B1BCB2D42C31C1C6006D4D06 /* FrameFiveVC.swift */,
+			);
+			path = FrameFive;
+			sourceTree = "<group>";
+		};
+		B1D098CA2C2DE5C200FCE0BE /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				B1D098CB2C2DE61400FCE0BE /* ShopData.swift */,
+			);
+			path = Struct;
 			sourceTree = "<group>";
 		};
 		B1F8AAE12BE249460022741A = {
@@ -143,10 +172,12 @@
 		B1F8AAEC2BE249460022741A /* VirtualPaymentService */ = {
 			isa = PBXGroup;
 			children = (
+				B1D098CA2C2DE5C200FCE0BE /* Struct */,
 				B11B58422BE7A30B00EC7272 /* CustomFontAndColor */,
 				B106B9972BE51C91002E606F /* Cell */,
 				B106B9922BE501C7002E606F /* CustomView */,
 				B106B9912BE5005E002E606F /* FrameFour */,
+				B1BCB2D32C31C019006D4D06 /* FrameFive */,
 				B106B9902BE50040002E606F /* Preloader */,
 				B1F8AAED2BE249460022741A /* AppDelegate.swift */,
 				B1F8AAEF2BE249460022741A /* SceneDelegate.swift */,
@@ -284,18 +315,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1F123812BEA354400DFC20C /* TableCell.swift in Sources */,
 				B106B9962BE50BFA002E606F /* TopLables.swift in Sources */,
 				B1DB1A832BE81CD20071FA5C /* CustomColors.swift in Sources */,
 				B106B9942BE501FD002E606F /* TopView.swift in Sources */,
 				B1EB24B22BE67F0200DCF22A /* GradientView.swift in Sources */,
 				B106B9992BE51CC7002E606F /* CollectionCell.swift in Sources */,
+				B1BCB2D52C31C1C6006D4D06 /* FrameFiveVC.swift in Sources */,
 				B183C7D12BE2D3070027A126 /* FrameFourVC.swift in Sources */,
+				B1D098CC2C2DE61400FCE0BE /* ShopData.swift in Sources */,
 				B1DECEDE2BE61B5900A81C03 /* CardView.swift in Sources */,
 				B183C7CF2BE2A92C0027A126 /* LoadingIndicator.swift in Sources */,
 				B1F8AAF22BE249460022741A /* ViewController.swift in Sources */,
 				B11B58442BE7F37C00EC7272 /* SwitchView.swift in Sources */,
+				B1F1237F2BEA219E00DFC20C /* ListView.swift in Sources */,
 				B106B98F2BE4FFCB002E606F /* EnumColorScheme.swift in Sources */,
 				B1F8AAEE2BE249460022741A /* AppDelegate.swift in Sources */,
+				B191DD982C2D85840039157B /* ShopView.swift in Sources */,
 				B1F8AAF02BE249460022741A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

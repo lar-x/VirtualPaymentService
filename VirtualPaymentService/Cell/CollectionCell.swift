@@ -15,8 +15,10 @@ class CollectionCell: UICollectionViewCell {
 
         contentView.backgroundColor = CustomColors.main //UIColor(red: 246 / 255, green: 246 / 255, blue: 246 / 255, alpha: 1) // .systemGreen.withAlphaComponent(0.5)
         contentView.addSubview(myView)
-        //myView.backgroundColor = // .red
+        //myView.backgroundColor = .red
     }
+   
+    
     
     override func layoutSubviews() {
           super.layoutSubviews()
@@ -29,8 +31,5 @@ class CollectionCell: UICollectionViewCell {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
-  
-   
-  
+
 }
